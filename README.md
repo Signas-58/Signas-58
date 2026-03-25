@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0d1117&height=200&section=header&text=Neon%20Tech%20Profile&fontSize=30&fontColor=00F7FF&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0d1117&height=200&section=header&text=Welcome%20to%20My%20GitHub&fontSize=30&fontColor=00F7FF&animation=fadeIn" />
 </p>
 
 ---
@@ -52,6 +52,11 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,mysql,mongodb,linux,git,github,html,css,js,azure,aws&theme=dark" />
+</p>
+
+<!-- ✅ YOUR GIF ADDED HERE -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57133330/188281408-c67df9ee-fd1f-4b37-833b-f02848f1ce02.gif" width="350"/>
 </p>
 
 ---
