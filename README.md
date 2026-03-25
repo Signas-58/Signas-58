@@ -19,9 +19,9 @@
 <h2 align="center" style="color:#00F7FF;">⚡ Power Level</h2>
 
 <p align="center">
-  <img src="https://progress-bar.dev/85/?title=Tech%20Power&color=00F7FF"/>
-  <img src="https://progress-bar.dev/80/?title=Data%20Analytics&color=00F7FF"/>
-  <img src="https://progress-bar.dev/75/?title=Cloud%20%26%20AI&color=00F7FF"/>
+  <img src="https://img.shields.io/badge/Tech%20Power-85%25-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Data%20Analytics-80%25-00F7FF?style=for-the-badge&logo=databricks&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Cloud%20%26%20AI-75%25-00F7FF?style=for-the-badge&logo=cloudflare&logoColor=black"/>
 </p>
 
 ---
@@ -63,8 +63,8 @@
 <h2 align="center" style="color:#00F7FF;">📊 Dev Dashboard</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Signas-58&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Signas-58&theme=tokyonight&hide_border=true&background=0d1117"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Signas-58&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Signas-58&theme=tokyonight&hide_border=true&background=0d1117"/>
 </p>
 
 <p align="center">
