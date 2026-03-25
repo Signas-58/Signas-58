@@ -12,15 +12,15 @@
 
 ## 🧠 About Me  
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/57133330/273525006-532fe418-73af-48b6-b841-e7948d79645b.gif" width="250"/>
-</p>
+<img align="right" src="https://user-images.githubusercontent.com/57133330/273525006-532fe418-73af-48b6-b841-e7948d79645b.gif" width="250"/>
 
 - 🎓 BCom Honours in Information Systems (Midlands State University)  
 - 💼 Digital Banking & Merchant Services Experience (Metbank)  
 - 📊 Passionate about Data Analytics, Cybersecurity & Cloud Computing  
 - 🧠 Skilled in SQL, MongoDB, Networking, IT Support  
 - 🚀 Currently learning AI & Cloud Technologies  
+
+<br clear="right"/>
 
 ---
 
@@ -69,14 +69,14 @@
 
 ## 🔮 Future Projects  
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/57133330/188281408-c67df9ee-fd1f-4b37-833b-f02848f1ce02.gif" width="400"/>
-</p>
+<img align="right" src="https://user-images.githubusercontent.com/57133330/188281408-c67df9ee-fd1f-4b37-833b-f02848f1ce02.gif" width="300"/>
 
 - 🤖 AI-powered analytics tools  
 - ☁️ Cloud-based systems  
 - 🔐 Cybersecurity solutions  
 - 📊 Advanced data dashboards  
+
+<br clear="right"/>
 
 ---
 
@@ -100,4 +100,4 @@
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=120&section=footer"/>
-</p>
+</p></p>
