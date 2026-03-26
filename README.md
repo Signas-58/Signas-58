@@ -82,6 +82,34 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
 </p>
 
+<h2 align="center" style="color:#00F7FF;">🌐 Connect With Me</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/tsakane-sithole-b39276197">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
+
+---
+
+<h2 align="center" style="color:#00F7FF;">👀 Profile Views</h2>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Signas-58&color=00F7FF&style=flat" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0d1117&height=120&section=footer"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
+</p>
+
 <h2 align="center" style="color:#00F7FF;">🐍 Contribution Snake</h2>
 
 <p align="center">
