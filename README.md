@@ -88,17 +88,12 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
 </p>
 
-<h2 align="center" style="color:#00F7FF;">📦 Repository Stats</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repos-Auto-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Private%20Repos-29-0d1117?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
+<<h2 align="center" style="color:#00F7FF;">📦 Repository Stats</h2>
 
 <p align="center">
   <img src="https://img.shields.io/github/repos/Signas-58?color=00F7FF&style=for-the-badge&logo=github&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Private%20Repos-29-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
 </p>
-
 ---
 
 <p align="center">
