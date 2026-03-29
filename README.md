@@ -86,15 +86,15 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tsakane-sithole-b39276197">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
+    <img src="https://skillicons.dev/icons?i=linkedin" height="40"/>
   </a>
-
+  
   <a href="https://t.me/Mxtaker">
-    <img src="https://skillicons.dev/icons?i=telegram" />
+    <img src="https://img.shields.io/badge/-Telegram-00F7FF?style=for-the-badge&logo=telegram&logoColor=black"/>
   </a>
-
+  
   <a href="mailto:tsakane.1578@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" />
+    <img src="https://skillicons.dev/icons?i=gmail" height="40"/>
   </a>
 </p>
 
