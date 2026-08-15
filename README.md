@@ -12,7 +12,7 @@
 
 <p align="center">
   <!-- UPDATE_SECTION_START -->
-*Last Updated: 2026-08-15 23:13:25 UTC*
+*Last Updated: 2026-08-15 23:20:33 UTC*
 <!-- UPDATE_SECTION_END -->
 </p>
 
@@ -42,9 +42,18 @@
 <h3 align="center" style="color:#00F7FF;">💡 Daily Coding Motivation</h3>
 <p align="center">
 <!-- QUOTE_SECTION_START -->
-> "The more something scares you, the more you should do it."
-> — *Mark Manson*
+> "Look for 3 things in a person. Intelligence, Energy, & Integrity. If they don't have the last one, don't even bother with the first two."
+> — *Warren Buffett*
 <!-- QUOTE_SECTION_END -->
+</p>
+
+---
+
+<h3 align="center" style="color:#00F7FF;">🏆 GitHub Trophies</h3>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Signas-58&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15" alt="GitHub Trophies" />
+  </a>
 </p>
 
 ---
@@ -93,6 +102,28 @@
     <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Signas-58&theme=tokyo-night&color=00F7FF&line=00F7FF&point=FFFFFF&bg_color=0d1117" alt="Activity Graph" />
   </a>
 </p>
+
+<p align="center">
+  <a href="https://leetcode.com/Signas-58" target="_blank">
+    <!-- Note: You can replace 'Signas-58' with your LeetCode username if different -->
+    <img height="180em" src="https://github-readme-leetcode.vercel.app/?username=Signas-58&theme=tokyonight&hide_border=true" alt="LeetCode Stats" />
+  </a>
+  <a href="https://wakatime.com/@Signas-58" target="_blank">
+    <!-- Note: Make sure your WakaTime profile is public to show these stats -->
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/wakatime?username=Signas-58&theme=tokyonight&hide_border=true" alt="WakaTime Stats" />
+  </a>
+</p>
+
+---
+
+<h2 align="center" style="color:#00F7FF;">🔔 Recent GitHub Activity</h2>
+<!-- ACTIVITY_SECTION_START -->
+- 📝 Pushed to [Signas-58/Signas-58](https://github.com/Signas-58/Signas-58)
+- 📝 Pushed to [Signas-58/friday-demo](https://github.com/Signas-58/friday-demo)
+- 📝 Pushed to [Signas-58/friday-demo](https://github.com/Signas-58/friday-demo)
+- 📝 Pushed to [Signas-58/worldmonitor](https://github.com/Signas-58/worldmonitor)
+- 📝 Pushed to [Lojohnes/Qualification-Verification-System](https://github.com/Lojohnes/Qualification-Verification-System)
+<!-- ACTIVITY_SECTION_END -->
 
 ---
 

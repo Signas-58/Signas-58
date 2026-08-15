@@ -78,6 +78,75 @@ def get_daily_quote():
     quote = random.choice(fallback_quotes)
     return quote["q"], quote["a"]
 
+def get_recent_activity():
+    """Fetch recent public GitHub events and format them as a markdown list."""
+    url = f"https://api.github.com/users/{USERNAME}/events/public"
+    req = urllib.request.Request(url)
+    req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+    try:
+        with urllib.request.urlopen(req, timeout=10) as response:
+            events = json.loads(response.read().decode())
+            activity_lines = []
+            count = 0
+            for event in events:
+                if count >= 5:
+                    break
+                
+                event_type = event.get("type")
+                repo_name = event.get("repo", {}).get("name")
+                repo_link = f"[{repo_name}](https://github.com/{repo_name})"
+                
+                if event_type == "PushEvent":
+                    commits = event.get("payload", {}).get("commits", [])
+                    num_commits = len(commits)
+                    if num_commits == 0:
+                        size = event.get("payload", {}).get("size")
+                        if size is not None:
+                            num_commits = size
+                    
+                    if num_commits > 0:
+                        desc = f"📝 Pushed {num_commits} commit(s) to {repo_link}"
+                        commit_msg = commits[0].get("message", "").split("\n")[0] if commits else ""
+                        if commit_msg:
+                            if len(commit_msg) > 60:
+                                commit_msg = commit_msg[:57] + "..."
+                            desc += f" (*\"{commit_msg}\"*)"
+                    else:
+                        desc = f"📝 Pushed to {repo_link}"
+                    activity_lines.append(desc)
+                    count += 1
+                elif event_type == "PullRequestEvent":
+                    action = event.get("payload", {}).get("action")
+                    pr_title = event.get("payload", {}).get("pull_request", {}).get("title")
+                    pr_url = event.get("payload", {}).get("pull_request", {}).get("html_url")
+                    desc = f"🔓 {action.capitalize()} PR [{pr_title}]({pr_url}) in {repo_link}"
+                    activity_lines.append(desc)
+                    count += 1
+                elif event_type == "IssuesEvent":
+                    action = event.get("payload", {}).get("action")
+                    issue_title = event.get("payload", {}).get("issue", {}).get("title")
+                    issue_url = event.get("payload", {}).get("issue", {}).get("html_url")
+                    desc = f"💬 {action.capitalize()} issue [{issue_title}]({issue_url}) in {repo_link}"
+                    activity_lines.append(desc)
+                    count += 1
+                elif event_type == "CreateEvent":
+                    ref_type = event.get("payload", {}).get("ref_type")
+                    if ref_type == "repository":
+                        desc = f"📁 Created new repository {repo_link}"
+                        activity_lines.append(desc)
+                        count += 1
+                elif event_type == "WatchEvent":
+                    desc = f"⭐ Starred repository {repo_link}"
+                    activity_lines.append(desc)
+                    count += 1
+                    
+            if not activity_lines:
+                return "*No recent public activity.*"
+            return "\n".join([f"- {line}" for line in activity_lines])
+    except Exception as e:
+        print(f"Error fetching recent activity: {e}")
+        return "*Failed to load recent activity.*"
+
 def replace_section(content, start_tag, end_tag, replacement):
     """Replace content between start and end tags (inclusive of tags)."""
     start_idx = content.find(start_tag)
@@ -141,10 +210,14 @@ def main():
     current_date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     update_replacement = f"*Last Updated: {current_date}*"
 
+    # Fetch recent activity
+    activity_replacement = get_recent_activity()
+
     # 4. Perform replacements
     content = replace_section(content, "<!-- STATS_SECTION_START -->", "<!-- STATS_SECTION_END -->", stats_replacement)
     content = replace_section(content, "<!-- QUOTE_SECTION_START -->", "<!-- QUOTE_SECTION_END -->", quote_replacement)
     content = replace_section(content, "<!-- UPDATE_SECTION_START -->", "<!-- UPDATE_SECTION_END -->", update_replacement)
+    content = replace_section(content, "<!-- ACTIVITY_SECTION_START -->", "<!-- ACTIVITY_SECTION_END -->", activity_replacement)
 
     # 5. Write back to README.md
     with open(README_PATH, "w", encoding="utf-8") as f:
