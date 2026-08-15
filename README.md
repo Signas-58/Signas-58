@@ -12,7 +12,7 @@
 
 <p align="center">
   <!-- UPDATE_SECTION_START -->
-*Last Updated: 2026-08-15 23:10:11 UTC*
+*Last Updated: 2026-08-15 23:13:25 UTC*
 <!-- UPDATE_SECTION_END -->
 </p>
 
@@ -42,8 +42,8 @@
 <h3 align="center" style="color:#00F7FF;">💡 Daily Coding Motivation</h3>
 <p align="center">
 <!-- QUOTE_SECTION_START -->
-> "If you do not get the chills when you set your goal you're not setting big enough goals."
-> — *Bob Proctor*
+> "The more something scares you, the more you should do it."
+> — *Mark Manson*
 <!-- QUOTE_SECTION_END -->
 </p>
 
