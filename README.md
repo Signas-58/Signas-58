@@ -90,10 +90,12 @@
 
 <h2 align="center" style="color:#00F7FF;">📦 Repository Stats</h2>
 
+<!-- STATS_SECTION_START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repos-42-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Public%20Repos-44-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
   <img src="https://img.shields.io/badge/Private%20Repos-29-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
 </p>
+<!-- STATS_SECTION_END -->
 
 ---
 

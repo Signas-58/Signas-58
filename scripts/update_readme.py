@@ -174,50 +174,51 @@ def main():
     fallback_public, fallback_private = parse_current_stats(content)
 
     # 1. Fetch updated repo counts
-    token = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN")
-    
-    public_repos = get_public_repos()
-    if public_repos is None:
-        public_repos = fallback_public
-        print(f"Using fallback public repos: {public_repos}")
-    else:
-        print(f"Fetched public repos: {public_repos}")
+    if "<!-- STATS_SECTION_START -->" in content:
+        token = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN")
+        
+        public_repos = get_public_repos()
+        if public_repos is None:
+            public_repos = fallback_public
+            print(f"Using fallback public repos: {public_repos}")
+        else:
+            print(f"Fetched public repos: {public_repos}")
 
-    private_repos = get_private_repos(token)
-    if private_repos is None:
-        private_repos = fallback_private
-        print(f"Using fallback private repos: {private_repos}")
-    else:
-        print(f"Fetched private repos: {private_repos}")
+        private_repos = get_private_repos(token)
+        if private_repos is None:
+            private_repos = fallback_private
+            print(f"Using fallback private repos: {private_repos}")
+        else:
+            print(f"Fetched private repos: {private_repos}")
+
+        stats_replacement = (
+            f'<p align="center">\n'
+            f'  <img src="https://img.shields.io/badge/Public%20Repos-{public_repos}-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>\n'
+            f'  <img src="https://img.shields.io/badge/Private%20Repos-{private_repos}-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>\n'
+            f'</p>'
+        )
+        content = replace_section(content, "<!-- STATS_SECTION_START -->", "<!-- STATS_SECTION_END -->", stats_replacement)
 
     # 2. Fetch daily quote
-    quote_text, quote_author = get_daily_quote()
-    print(f"Selected Quote: '{quote_text}' - {quote_author}")
+    if "<!-- QUOTE_SECTION_START -->" in content:
+        quote_text, quote_author = get_daily_quote()
+        print(f"Selected Quote: '{quote_text}' - {quote_author}")
+        quote_replacement = (
+            f'> "{quote_text}"\n'
+            f'> — *{quote_author}*'
+        )
+        content = replace_section(content, "<!-- QUOTE_SECTION_START -->", "<!-- QUOTE_SECTION_END -->", quote_replacement)
 
-    # 3. Format replacement contents
-    stats_replacement = (
-        f'<p align="center">\n'
-        f'  <img src="https://img.shields.io/badge/Public%20Repos-{public_repos}-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>\n'
-        f'  <img src="https://img.shields.io/badge/Private%20Repos-{private_repos}-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>\n'
-        f'</p>'
-    )
-    
-    quote_replacement = (
-        f'> "{quote_text}"\n'
-        f'> — *{quote_author}*'
-    )
+    # 3. Update timestamp
+    if "<!-- UPDATE_SECTION_START -->" in content:
+        current_date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        update_replacement = f"*Last Updated: {current_date}*"
+        content = replace_section(content, "<!-- UPDATE_SECTION_START -->", "<!-- UPDATE_SECTION_END -->", update_replacement)
 
-    current_date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    update_replacement = f"*Last Updated: {current_date}*"
-
-    # Fetch recent activity
-    activity_replacement = get_recent_activity()
-
-    # 4. Perform replacements
-    content = replace_section(content, "<!-- STATS_SECTION_START -->", "<!-- STATS_SECTION_END -->", stats_replacement)
-    content = replace_section(content, "<!-- QUOTE_SECTION_START -->", "<!-- QUOTE_SECTION_END -->", quote_replacement)
-    content = replace_section(content, "<!-- UPDATE_SECTION_START -->", "<!-- UPDATE_SECTION_END -->", update_replacement)
-    content = replace_section(content, "<!-- ACTIVITY_SECTION_START -->", "<!-- ACTIVITY_SECTION_END -->", activity_replacement)
+    # 4. Fetch recent activity
+    if "<!-- ACTIVITY_SECTION_START -->" in content:
+        activity_replacement = get_recent_activity()
+        content = replace_section(content, "<!-- ACTIVITY_SECTION_START -->", "<!-- ACTIVITY_SECTION_END -->", activity_replacement)
 
     # 5. Write back to README.md
     with open(README_PATH, "w", encoding="utf-8") as f:
