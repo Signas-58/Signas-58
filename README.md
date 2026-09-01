@@ -124,7 +124,7 @@
 <h2 align="center" style="color:#00F7FF;">👀 Profile Views</h2>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Signas-58&color=00F7FF&style=flat" />
+  <img src="https://count.getloli.com/get/@Signas-58?theme=moebooru" alt="Profile Views Counter" />
 </p>
 
 ---
