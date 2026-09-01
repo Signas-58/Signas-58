@@ -124,7 +124,11 @@
 <h2 align="center" style="color:#00F7FF;">👀 Profile Views</h2>
 
 <p align="center">
+<<<<<<< HEAD
   <img src="https://count.getloli.com/get/@Signas-58?theme=random" alt="Profile Views Counter" />
+=======
+  <img src="https://anime-counter.lulushu.workers.dev/@Signas-58?theme=onepiece" alt="Profile Views Counter" />
+>>>>>>> 42a6f15faab0ef4d3e664ab3eec0172c93484cc4
 </p>
 
 ---
