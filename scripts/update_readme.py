@@ -162,6 +162,36 @@ def replace_section(content, start_tag, end_tag, replacement):
         + content[end_idx:]
     )
 
+COUNTER_THEMES = [
+    "https://count.getloli.com/get/@Signas-58?theme=moebooru",
+    "https://anime-counter.lulushu.workers.dev/@Signas-58?theme=naruto",
+    "https://anime-counter.lulushu.workers.dev/@Signas-58?theme=onepiece",
+    "https://count.getloli.com/get/@Signas-58?theme=booru-helltaker",
+    "https://count.getloli.com/get/@Signas-58?theme=gelbooru"
+]
+
+def rotate_counter_theme(content):
+    """Rotate to the next theme from the user's 5 selected profile view counter themes."""
+    if "<!-- COUNTER_SECTION_START -->" not in content or "<!-- COUNTER_SECTION_END -->" not in content:
+        return content
+
+    current_idx = -1
+    for i, theme_url in enumerate(COUNTER_THEMES):
+        if theme_url in content:
+            current_idx = i
+            break
+
+    next_idx = (current_idx + 1) % len(COUNTER_THEMES)
+    next_url = COUNTER_THEMES[next_idx]
+    print(f"Rotating counter theme to index {next_idx}: {next_url}")
+
+    replacement = (
+        f'<p align="center">\n'
+        f'  <img src="{next_url}" alt="Profile Views Counter" />\n'
+        f'</p>'
+    )
+    return replace_section(content, "<!-- COUNTER_SECTION_START -->", "<!-- COUNTER_SECTION_END -->", replacement)
+
 def main():
     if not os.path.exists(README_PATH):
         print(f"Error: {README_PATH} not found.")
@@ -169,6 +199,9 @@ def main():
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
+
+    # Rotate counter theme across the 5 selected themes
+    content = rotate_counter_theme(content)
 
     # Get fallbacks
     fallback_public, fallback_private = parse_current_stats(content)
