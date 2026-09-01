@@ -92,7 +92,7 @@
 
 <!-- STATS_SECTION_START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repos-45-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Public%20Repos-46-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
   <img src="https://img.shields.io/badge/Private%20Repos-29-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
 </p>
 <!-- STATS_SECTION_END -->
