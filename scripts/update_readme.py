@@ -170,20 +170,39 @@ COUNTER_THEMES = [
     "https://count.getloli.com/get/@Signas-58?theme=gelbooru"
 ]
 
+def fetch_profile_views_count():
+    """Fetch current view count from counter endpoint."""
+    url = "https://anime-counter.lulushu.workers.dev/@Signas-58?theme=moebooru"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = resp.read().decode("utf-8")
+            match = re.search(r">\s*(\d+)\s*<", data)
+            if match:
+                return int(match.group(1))
+    except Exception as e:
+        print(f"Error fetching view count: {e}")
+    return None
+
 def rotate_counter_theme(content):
-    """Rotate to the next theme from the user's 5 selected profile view counter themes."""
+    """Rotate theme based on view count: 1-10 -> moebooru, 11-20 -> naruto, 21-30 -> onepiece, 31-40 -> helltaker, 41-50 -> gelbooru."""
     if "<!-- COUNTER_SECTION_START -->" not in content or "<!-- COUNTER_SECTION_END -->" not in content:
         return content
 
-    current_idx = -1
-    for i, theme_url in enumerate(COUNTER_THEMES):
-        if theme_url in content:
-            current_idx = i
-            break
+    count = fetch_profile_views_count()
+    if count is not None and count > 0:
+        next_idx = ((count - 1) // 10) % len(COUNTER_THEMES)
+        print(f"Fetched view count {count} -> theme index {next_idx} ({COUNTER_THEMES[next_idx]})")
+    else:
+        current_idx = -1
+        for i, theme_url in enumerate(COUNTER_THEMES):
+            if theme_url in content:
+                current_idx = i
+                break
+        next_idx = (current_idx + 1) % len(COUNTER_THEMES)
+        print(f"Fallback rotation to theme index {next_idx}: {COUNTER_THEMES[next_idx]}")
 
-    next_idx = (current_idx + 1) % len(COUNTER_THEMES)
     next_url = COUNTER_THEMES[next_idx]
-    print(f"Rotating counter theme to index {next_idx}: {next_url}")
 
     replacement = (
         f'<p align="center">\n'
