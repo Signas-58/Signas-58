@@ -125,7 +125,7 @@
 
 <!-- COUNTER_SECTION_START -->
 <p align="center">
-  <img src="https://anime-counter.lulushu.workers.dev/@Signas-58?theme=onepiece" alt="Profile Views Counter" />
+  <img src="https://count.getloli.com/get/@Signas-58?theme=gelbooru" alt="Profile Views Counter" />
 </p>
 <!-- COUNTER_SECTION_END -->
 
