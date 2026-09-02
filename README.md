@@ -125,7 +125,7 @@
 
 <!-- COUNTER_SECTION_START -->
 <p align="center">
-  <img src="https://signas-profile-counter.clammy-seeder.workers.dev" alt="Profile Views Counter" />
+  <img src="https://anime-counter.lulushu.workers.dev/@Signas-58?theme=onepiece" alt="Profile Views Counter" />
 </p>
 <!-- COUNTER_SECTION_END -->
 
