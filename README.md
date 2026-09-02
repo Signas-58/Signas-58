@@ -18,11 +18,15 @@
 
 <h2 align="center" style="color:#00F7FF;">⚡ Power Level</h2>
 
+<img align="right" src="https://media1.tenor.com/m/AtiBkSK7X3IAAAAC/dokkan-dokkan-battle.gif" width="220"/>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Tech%20Power-85%25-00F7FF?style=for-the-badge&logo=github&logoColor=black"/>
   <img src="https://img.shields.io/badge/Data%20Analytics-80%25-00F7FF?style=for-the-badge&logo=databricks&logoColor=black"/>
   <img src="https://img.shields.io/badge/Cloud%20%26%20AI-75%25-00F7FF?style=for-the-badge&logo=cloudflare&logoColor=black"/>
 </p>
+
+<br clear="right"/>
 
 ---
 
