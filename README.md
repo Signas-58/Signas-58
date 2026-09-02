@@ -68,18 +68,16 @@
 <h2 align="center" style="color:#00F7FF;">📊 Dev Dashboard</h2>
 
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Pixel-art developer workspace" width="100%" />
+</p>
+
+<p align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Signas-58&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
   <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Signas-58&theme=tokyonight&hide_border=true&background=0d1117"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Signas-58&theme=tokyo-night&color=00F7FF&line=00F7FF&point=FFFFFF&bg_color=0d1117"/>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
 </p>
 
 ---
