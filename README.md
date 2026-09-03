@@ -38,7 +38,7 @@
 
 <img align="right" src="https://user-images.githubusercontent.com/57133330/273525006-532fe418-73af-48b6-b841-e7948d79645b.gif" width="250"/>
 
-- 🎓 **BCom Honours Degree in Information Systems (Upper 2.1)** — Midlands State University  
+- 🎓 **BCom Honours Degree in Information Systems** (Midlands State University)  
 - 💼 **Digital Banking & Merchant Services Experience** (Metbank)  
 - 🤖 **Core Focus**: Artificial Intelligence, Algorithmic Trading & Cybersecurity  
 - 📈 **Enthusiast**: Quantitative Finance, Crypto Arbitrage & MT5 Trading Automation  
