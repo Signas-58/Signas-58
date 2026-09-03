@@ -38,13 +38,37 @@
 
 <img align="right" src="https://user-images.githubusercontent.com/57133330/273525006-532fe418-73af-48b6-b841-e7948d79645b.gif" width="250"/>
 
-- 🎓 BCom Honours in Information Systems (Midlands State University)  
-- 💼 Digital Banking & Merchant Services Experience (Metbank)  
-- 📊 Passionate about Data Analytics, Cybersecurity & Cloud Computing  
-- 🧠 Skilled in SQL, MongoDB, Networking, IT Support  
-- 🚀 Currently learning AI & Cloud Technologies  
+- 🎓 **BCom Honours Degree in Information Systems (Upper Second Class - 2.1)** — Midlands State University  
+- 💼 **Digital Banking & Merchant Services Experience** (Metbank)  
+- 🤖 **Core Focus**: Artificial Intelligence, Cloud Computing & Cybersecurity  
+- 📊 **Expertise**: Systems Analysis & Design, Enterprise Architecture, Data Analytics & Software Engineering  
+- 🧠 **Technical Skills**: Python, SQL, MongoDB, Linux, Networking, AWS & Azure  
+- 🚀 **Building**: AI-driven applications, data pipelines & automated cloud workflows  
 
 <br clear="right"/>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
+</p>
+
+<h2 align="center" style="color:#00F7FF;">🎓 Academic Focus & Core Competencies</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence-00F7FF?style=for-the-badge&logo=openai&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Cloud%20Computing-007CF0?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cybersecurity%20%26%20IS%20Audit-00F7FF?style=for-the-badge&logo=cisco&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Enterprise%20Architecture-007CF0?style=for-the-badge&logo=diagramsdotnet&logoColor=white"/>
+</p>
+
+| Domain | Specializations & Key Coursework |
+| :--- | :--- |
+| **🤖 AI & Intelligent Systems** | Artificial Intelligence, Decision Support Systems (DSS), Simulation & Modelling |
+| **☁️ Cloud & Architecture** | Cloud Computing Fundamentals, Enterprise Architecture, Systems Analysis & Design |
+| **🔒 Security & Infrastructure** | Information Security, Cybersecurity, IS Audit & Control, Networks & Data Communications |
+| **💻 Software & Web Engineering** | Software Engineering, Data Structures & Algorithms, Object-Oriented Programming, Web Technologies, HCI |
+| **📊 Data & Systems Analytics** | Database Systems, Applied Statistics, Management Information Systems (MIS) |
 
 ---
 
