@@ -146,11 +146,19 @@
 <h2 align="center" style="color:#00F7FF;">🐍 Contribution Snake & Activity Matrix</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Signas-58/Signas-58/output/github-contribution-grid-snake.svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&height=35&lines=%E2%9A%A1+Live+Contribution+Feed;%F0%9F%93%98+Consistent+Commits+%26+Code+Activity;%F0%9F%90%8D+Interactive+Activity+Matrix" />
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/00F7FF/Signas-58" alt="Cyan Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Signas-58/Signas-58/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Signas-58/Signas-58/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Snake Contribution Animation" src="https://raw.githubusercontent.com/Signas-58/Signas-58/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Signas-58&theme=tokyonight" alt="Dynamic Contribution Summary" />
 </p>
 
 ---
