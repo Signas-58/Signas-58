@@ -143,10 +143,14 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
 </p>
 
-<h2 align="center" style="color:#00F7FF;">🐍 Contribution Snake</h2>
+<h2 align="center" style="color:#00F7FF;">🐍 Contribution Snake & Activity Matrix</h2>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Signas-58/Signas-58/output/github-contribution-grid-snake.svg" />
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/00F7FF/Signas-58" alt="Cyan Contribution Graph" />
 </p>
 
 ---
