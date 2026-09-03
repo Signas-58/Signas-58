@@ -167,13 +167,36 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
 </p>
 
-<h2 align="center" style="color:#00F7FF;">🚀 Project Timeline</h2>
+<h2 align="center" style="color:#00F7FF;">🚀 Project Timeline & Live Activity</h2>
 
-```text
-2024 ────────────────┐
-                     ├── 📊 Data Analytics Projects
-                     ├── 💳 Digital Banking Tools
-2025 ────────────────┤
-                     ├── 🛡️ Campus Safety System
-                     ├── ☁️ Cloud & AI Learning
-2026 ────────────────┘
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2800&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&height=50&lines=%F0%9F%9A%80+2024+%E2%9E%9D+%F0%9F%93%8A+Data+Analytics+%7C+%F0%9F%92%B3+Digital+Banking;%F0%9F%9A%80+2025+%E2%9E%9D+%F0%9F%9B%A1%EF%B8%8F+Campus+Safety+%7C+%E2%98%81%EF%B8%8F+Cloud+%26+AI;%F0%9F%9A%80+2026+%E2%9E%9D+%E2%9A%A1+Autonomous+AI+Agents+%7C+%F0%9F%94%A5+NextGen+Tech" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/2024-Data%20Analytics%20%26%20Banking-00F7FF?style=for-the-badge&logo=python&logoColor=black"/>
+  <img src="https://img.shields.io/badge/%E2%9E%9D-2025-007CF0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/2025-Campus%20Safety%20%26%20Cloud-00F7FF?style=for-the-badge&logo=amazonaws&logoColor=black"/>
+  <img src="https://img.shields.io/badge/%E2%9E%9D-2026-007CF0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/2026-AI%20Agents%20%26%20Automation-00F7FF?style=for-the-badge&logo=openai&logoColor=black"/>
+</p>
+
+<br/>
+
+<h3 align="center" style="color:#00F7FF;">⚡ Live Commit & Activity Stream</h3>
+
+<!-- ACTIVITY_SECTION_START -->
+- 📝 Pushed to [Signas-58/aegisBTC](https://github.com/Signas-58/aegisBTC)
+- 📝 Pushed to [Signas-58/Signas-58](https://github.com/Signas-58/Signas-58)
+- 📝 Pushed to [Signas-58/Signas-58](https://github.com/Signas-58/Signas-58)
+- 📝 Pushed to [Signas-58/Signas-58](https://github.com/Signas-58/Signas-58)
+- 📝 Pushed to [Signas-58/Signas-58](https://github.com/Signas-58/Signas-58)
+<!-- ACTIVITY_SECTION_END -->
+
+<br/>
+
+<p align="center">
+<!-- UPDATE_SECTION_START -->
+*Last Updated: 2026-09-03 00:47:57 UTC*
+<!-- UPDATE_SECTION_END -->
+</p>
