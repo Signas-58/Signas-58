@@ -38,12 +38,13 @@
 
 <img align="right" src="https://user-images.githubusercontent.com/57133330/273525006-532fe418-73af-48b6-b841-e7948d79645b.gif" width="250"/>
 
-- 🎓 **BCom Honours Degree in Information Systems** (Midlands State University)  
+- 🎓 **BCom Honours Degree in Information Systems (Upper 2.1)** — Midlands State University  
 - 💼 **Digital Banking & Merchant Services Experience** (Metbank)  
-- 🤖 **Core Focus**: Artificial Intelligence, Cloud Computing & Cybersecurity  
-- 📊 **Expertise**: Systems Analysis & Design, Enterprise Architecture, Data Analytics & Software Engineering  
-- 🧠 **Technical Skills**: Python, SQL, MongoDB, Linux, Networking, AWS & Azure  
-- 🚀 **Building**: AI-driven applications, data pipelines & automated cloud workflows  
+- 🤖 **Core Focus**: Artificial Intelligence, Algorithmic Trading & Cybersecurity  
+- 📈 **Enthusiast**: Quantitative Finance, Crypto Arbitrage & MT5 Trading Automation  
+- 🌍 **Passionate About**: Real-time Global Intelligence Dashboards & AI Security Research  
+- 🧠 **Technical Stack**: Python, TypeScript, SQL, MongoDB, Linux, AWS & Azure  
+- 🚀 **Currently Building**: Automated trading bots, intelligence dashboards & cloud automation pipelines  
 
 <br clear="right"/>
 
@@ -69,6 +70,26 @@
 | **🔒 Security & Infrastructure** | Information Security, Cybersecurity, IS Audit & Control, Networks & Data Communications |
 | **💻 Software & Web Engineering** | Software Engineering, Data Structures & Algorithms, Object-Oriented Programming, Web Technologies, HCI |
 | **📊 Data & Systems Analytics** | Database Systems, Applied Statistics, Management Information Systems (MIS) |
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:007CF0&height=2"/>
+</p>
+
+<h2 align="center" style="color:#00F7FF;">🔥 Featured Projects & Technical Enthusiasms</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Algo%20Trading-00F7FF?style=for-the-badge&logo=bitcoin&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Global%20Intelligence-007CF0?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%20Red%20Teaming-00F7FF?style=for-the-badge&logo=kalilinux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Bot%20Automation-007CF0?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+</p>
+
+- 📈 **Algorithmic & Crypto Trading Systems**: Developing automated trading systems (**aegisBTC**, MT5 Expert Advisor Robots, Arbitrage Bots) for automated market execution and risk management.
+- 🌍 **Real-Time Intelligence Dashboards**: Building **WorldMonitor**, a unified situational awareness dashboard for AI-powered news aggregation, geopolitical tracking, and infrastructure monitoring.
+- 🛡️ **AI Security & Cyber Research**: Researching LLM safety, red-teaming frameworks, and CLI security tools (**DarkGPT-Lite**).
+- 💬 **Automation & Multi-Device Bot Frameworks**: Architecting Node.js bot automation tools for real-time messaging and API integration.
 
 ---
 
