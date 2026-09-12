@@ -36,7 +36,7 @@
 
 <h2 align="center" style="color:#00F7FF;">🧠 About Me</h2>
 
-<img align="right" src="https://user-images.githubusercontent.com/57133330/273525006-532fe418-73af-48b6-b841-e7948d79645b.gif" width="250"/>
+<img align="right" src="https://raw.githubusercontent.com/Signas-58/Signas-58/main/assets/about_me.gif" width="250"/>
 
 - 🎓 **BCom Honours Degree in Information Systems** (Midlands State University)  
 - 💼 **Digital Banking & Merchant Services Experience** (Metbank)  
@@ -105,7 +105,7 @@
 
 <!-- ✅ YOUR GIF ADDED HERE -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57133330/188281408-c67df9ee-fd1f-4b37-833b-f02848f1ce02.gif" width="350"/>
+  <img src="https://raw.githubusercontent.com/Signas-58/Signas-58/main/assets/workspace_coding.gif" width="350"/>
 </p>
 
 ---
@@ -117,7 +117,7 @@
 <h2 align="center" style="color:#00F7FF;">📊 Dev Dashboard</h2>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Pixel-art developer workspace" width="100%" />
+  <img src="https://raw.githubusercontent.com/Signas-58/Signas-58/main/assets/pixel_dev_workspace.gif" alt="Pixel-art developer workspace" width="100%" />
 </p>
 
 <p align="center">
